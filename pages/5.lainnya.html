@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+</head>
+
+<body class="bg-blue-600">
+    <div class="text-center text-white text-4xl font-bold mt-6">
+        <h1>PILIH JENIS TRANSAKSI</h1>
+
+    <div class="flex justify-evenly mt-12">
+        <ul class="grid space-y-24 text-left">
+            <li><button onclick="Penarikan()"><- PENARIKAN</button></li>
+            <li><button onclick="Transfer()"><- TRANSFER</button></li>
+            <li><button onclick="Pembelian()"><- PEMBELIAN</button></li>
+            <li><button onclick="lainnyA()"><- LAINNYA</button></li>
+        </ul>
+        
+        <ul class="grid space-y-24 text-right">
+            <li><button onclick="Info()">INFO REKENING -></button></li>
+            <li><button onclick="Pembayaran()">PEMBAYARAN -></button></li>
+            <li><button onclick="Ubah()">UBAH PIN -></button></li>
+            <li><button onclick="Keluar()">KELUAR -></button></li>
+        </ul>
+    </div>
+    </div>
+</body>
+
+<script>
+    function Penarikan() {
+    window.open("4.tunai.html")
+    window.close("5.lainnya.html")
+  }
+
+  function Keluar() {
+    window.open("6.ambil.html")
+    window.close("5.lainnya.html")
+  }
+</script>
+
+</html>

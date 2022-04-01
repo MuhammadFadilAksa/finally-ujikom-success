@@ -5,9 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/dist/output.css" rel="stylesheet">
 </head>
-<body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+<body class="bg-blue-600">
+  <div class="flex justify-evenly mt-32">
+    <div class="text-white text-4xl text-center font-bold space-y-48 mt-10">
+      <h1>SILAHKAN MASUKAN KARTU<br> ANDA</h1>
+      <h1>PLEASE INSERT YOUR CARD</h1>
+    </div>
+
+    <div class="w-96 mt-2">
+      <button onclick="Masukan()">
+        <img src="/img/insert.png" alt="">
+      </button>
+    </div>
+  </div>
 </body>
+
+<script>
+  function Masukan() {
+    window.open("2.bahasa.html")
+    window.close("1.index.html")
+  }
+</script>
+
 </html>
